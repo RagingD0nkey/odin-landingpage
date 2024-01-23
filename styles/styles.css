@@ -1,11 +1,32 @@
+body{
+    margin: 0;
+}
+
 .page{
     display: flex;
     flex-direction: column;
 }
 
+.page>*{
+    padding: 1vh 10vw;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.header-logo{
+    font-size: 1.5rem;
+    color: #F9FAF8;
+
+}
+
+.header-links{
+    font-size: 1.125rem;
+    color: #E5E7EB;
+
 }
 
 .header ul{
@@ -13,20 +34,27 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    
 }
 
 .hook{
+    background-color: #1F2937;
 
 }
 .informations{
 
 }
 .quote{
+    background-color: #E5E7EB;
+    font-size: 2rem;
+    font-style: italic;
+    color: #1F2937;
+
 
 }
 .signup{
 
 }
 .footer{
-
+    background-color: #1F2937;
 }
